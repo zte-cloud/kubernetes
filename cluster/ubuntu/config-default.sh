@@ -117,5 +117,3 @@ ALLOW_PRIVILEGED=${ALLOW_PRIVILEGED:-"false"}
 
 DEBUG=${DEBUG:-"false"}
 
-# Add SSH_OPTS
-SSH_OPTS="-oPort=22 -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oLogLevel=ERROR"
